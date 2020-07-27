@@ -1,0 +1,23 @@
+html, body {
+    margin:0;
+}
+#imagem_fundo {
+    background: url("img/school.jpg");
+    height: 100%;
+    text-align: center;
+}
+#título {
+    color:blue;
+    padding-top:8%;
+    font-size:50px;
+}
+#subtítulo {
+    color:black;
+    padding-left: 20%;
+    padding-right: 20%
+}
+#ação{
+    color: black;
+    border:blue solid;
+    padding:10px 20px 10px 20px;
+}
