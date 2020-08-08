@@ -1,25 +1,125 @@
 html, body {
     margin:0;
 }
-#imagem_fundo {
+header {
+    background-color: orangered;
+    color:ivory;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+
+}
+#menu {
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    float:left;
+    padding: 20 20 20 20;
+}
+li:hover {
+    background-color:black;
+}
+#capa {
     background: url("img/school.jpg");
+    background-size:initial;
+    text-align: center;
+    color:#5C2EF2 ;
     height: 100%;
+    box-sizing: border-box;
+    padding: 100px 400px 0 400px;
+}
+#tituloprincipal {
+    font-size:40px;
+    color:#5C2EF2;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+}
+#titulosecundario {
+    color:orangered;
+    font-size:25px;
+    border-top: solid #5C2EF2 5px;
+    margin-bottom: 5px;
+}
+.classe {
+    text-decoration: none;
+    color: black;
+    border:1px solid white;
+    padding:5px 30px;
+    border-radius:8px;
+}
+a:hover {
+    background-color:papayawhip;
+    font-size: 20px;
+    border:#5C2EF2 solid 5px;
+    color:black;
+}
+#principal {
+    background-color:ivory;
+    width: 100%;
+    line-height: 2;
+    padding: 20px;
+    float:left;
+    padding-bottom: 10px;
+
+}
+#proposta{
+    padding-top: 20px;
+    margin-left: 10px;
+
+}
+.icone {
+    width:60px;
+    height:60px;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+   width: 29px;
+   padding: 0 2%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+    color:orangered;
+    font-weight: bold;
+    border-bottom:#FFCE7D solid 2px;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+
+}
+.centraldois {
     text-align: center;
 }
-#título {
-    color:blue;
-    padding-top:5%;
-    font-size:50px;
-}
-#subtítulo {
-    color:black;
-    padding-top:10px ;
-    padding-right: 20%;
-    padding-bottom: 10px;
-    padding-left: 20%;
-}
-#ação{
-    color: black;
-    border:blue solid;
-    padding:10px 20px 10px 20px;
+footer {
+    background-color: orangered;
+    float:left;
+    width: 100%;
+    height:20%;
+    color: ivory;
 }
